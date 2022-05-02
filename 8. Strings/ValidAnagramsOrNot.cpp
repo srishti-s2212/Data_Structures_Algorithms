@@ -38,6 +38,6 @@ int main()
     cout << "\nEnter string2: ";
     cin >> str2;
 
-    cout << "\nAnswer: " << obj.isAnagram(str1, str2);
+    cout << obj.isAnagram(str1, str2);
     return 0;
 }
